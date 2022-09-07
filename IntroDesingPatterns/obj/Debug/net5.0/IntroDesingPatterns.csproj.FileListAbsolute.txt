@@ -1,0 +1,16 @@
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.exe
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.deps.json
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.runtimeconfig.json
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.runtimeconfig.dev.json
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.dll
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\bin\Debug\net5.0\IntroDesingPatterns.pdb
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.csproj.AssemblyReference.cache
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.AssemblyInfoInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.AssemblyInfo.cs
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.csproj.CoreCompileInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.dll
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\refint\IntroDesingPatterns.dll
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.pdb
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\IntroDesingPatterns.genruntimeconfig.cache
+C:\Users\vicen\source\repos\DesingPatterns\IntroDesingPatterns\obj\Debug\net5.0\ref\IntroDesingPatterns.dll
