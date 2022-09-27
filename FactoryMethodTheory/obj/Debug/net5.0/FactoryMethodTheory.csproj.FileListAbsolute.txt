@@ -1,0 +1,16 @@
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.exe
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.deps.json
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.runtimeconfig.json
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.runtimeconfig.dev.json
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.dll
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\bin\Debug\net5.0\FactoryMethodTheory.pdb
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.csproj.AssemblyReference.cache
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.AssemblyInfoInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.AssemblyInfo.cs
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.csproj.CoreCompileInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.dll
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\refint\FactoryMethodTheory.dll
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.pdb
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\FactoryMethodTheory.genruntimeconfig.cache
+C:\Users\vicen\source\repos\DesingPatterns\FactoryMethodTheory\obj\Debug\net5.0\ref\FactoryMethodTheory.dll
