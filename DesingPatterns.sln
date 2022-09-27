@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroDesingPatterns", "Intr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{44EE7E54-196F-4710-8D94-3DB1AEFBE28A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonAsp", "SingletonAsp\SingletonAsp.csproj", "{AED6E274-7859-4F00-A3D8-0732C7707FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAsp", "SingletonAsp\DesignPatternsAsp.csproj", "{AED6E274-7859-4F00-A3D8-0732C7707FAE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Tools\Tools.csproj", "{A1D52EE0-3A1E-4EBE-AE93-A44676DFB08E}"
 EndProject
