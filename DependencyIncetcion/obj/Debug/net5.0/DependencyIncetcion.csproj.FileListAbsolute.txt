@@ -1,0 +1,16 @@
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.exe
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.deps.json
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.runtimeconfig.json
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.runtimeconfig.dev.json
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.dll
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\bin\Debug\net5.0\DependencyIncetcion.pdb
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.csproj.AssemblyReference.cache
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.AssemblyInfoInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.AssemblyInfo.cs
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.csproj.CoreCompileInputs.cache
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.dll
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\refint\DependencyIncetcion.dll
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.pdb
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\DependencyIncetcion.genruntimeconfig.cache
+C:\Users\vicen\source\repos\DesingPatterns\DependencyIncetcion\obj\Debug\net5.0\ref\DependencyIncetcion.dll

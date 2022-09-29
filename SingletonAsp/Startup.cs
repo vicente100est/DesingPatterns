@@ -1,6 +1,9 @@
+using DesignPatterns.Models.Data;
+using DesignPatterns.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -9,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Tools.Earm;
 
 namespace SingletonAsp
 {
@@ -26,6 +30,27 @@ namespace SingletonAsp
         {
             services.AddControllersWithViews();
             services.Configure<MyConfig>(Configuration.GetSection("MyConfig"));
+
+            services.AddTransient((factory) =>
+            {
+                return new CLocalEarnFactory(Configuration
+                    .GetSection("MyConfig").GetValue<decimal>("LocalPercentage"));
+            });
+
+            services.AddTransient((factory) =>
+            {
+                return new CForeignEarnFactory(Configuration
+                    .GetSection("MyConfig").GetValue<decimal>("ForeignPorcentage"),
+                    Configuration
+                    .GetSection("MyConfig").GetValue<decimal>("Extra"));
+            });
+
+            services.AddDbContext<DesignPatternsContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("Connection"));
+            });
+
+            services.AddScoped(typeof(IRepository<>), typeof(CRepository<>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

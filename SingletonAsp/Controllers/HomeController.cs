@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DesignPatterns.Models.Data;
+using DesignPatterns.Repository;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using SingletonAsp.Config;
@@ -17,15 +19,25 @@ namespace SingletonAsp.Controllers
 
         private readonly IOptions<MyConfig> _config;
 
-        public HomeController(IOptions<MyConfig> config)
+        private readonly IRepository<Beer> _repository;
+
+        public HomeController
+            (
+                IOptions<MyConfig> config,
+                IRepository<Beer> repository
+            )
         {
             this._config = config;
+            this._repository = repository;
         }
 
         public IActionResult Index()
         {
             CLog.GetInstance(_config.Value.PathLog).Save("Entro a index");
-            return View();
+
+            IEnumerable<Beer> lst = _repository.Get();
+
+            return View("Index", lst);
         }
 
         public IActionResult Privacy()
