@@ -149,3 +149,4 @@ C:\Users\vicen\source\repos\DesingPatterns\SingletonAsp\bin\Debug\net5.0\DesignP
 C:\Users\vicen\source\repos\DesingPatterns\SingletonAsp\bin\Debug\net5.0\DesignPatterns.Repository.dll
 C:\Users\vicen\source\repos\DesingPatterns\SingletonAsp\bin\Debug\net5.0\DesignPatterns.Models.pdb
 C:\Users\vicen\source\repos\DesingPatterns\SingletonAsp\bin\Debug\net5.0\DesignPatterns.Repository.pdb
+C:\Users\vicen\source\repos\DesingPatterns\SingletonAsp\obj\Debug\net5.0\Razor\Views\Beer\Index.cshtml.g.cs

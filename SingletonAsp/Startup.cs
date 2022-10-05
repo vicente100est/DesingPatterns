@@ -51,6 +51,8 @@ namespace SingletonAsp
             });
 
             services.AddScoped(typeof(IRepository<>), typeof(CRepository<>));
+
+            services.AddScoped<IUnitOfWork, CUnirOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

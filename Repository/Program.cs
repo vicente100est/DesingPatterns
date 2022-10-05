@@ -1,5 +1,6 @@
 ﻿using Repository.Class;
 using Repository.Models;
+using Repository.UnitOfWorkPattern;
 using System;
 using System.Linq;
 
@@ -11,28 +12,46 @@ namespace Repository
         {
             using (DesignPatternsContext context = new DesignPatternsContext())
             {
-                var beerRepository = new CRepository<Beer>(context);
-                beerRepository.Delete(4);
-                //var beer = new Beer() { Name = "Fuller", Style = "Strong Ale" };
-                //beerRepository.Add(beer);
-                beerRepository.Save();
+                var unitOfWork = new CUnirOfWork(context);
 
-                foreach (var b in beerRepository.Get())
+                var beers = unitOfWork.Beers;
+                var beer = new Beer()
                 {
-                    Console.WriteLine($"{b.BeerId} {b.Name}");
-                }
+                    Name = "Fuller",
+                    Style = "Porter"
+                };
 
-                var barndRepository = new CRepository<Brand>(context);
+                beers.Add(beer);
 
-                var brand = new Brand();
-                brand.Name = "Fuller";
-                barndRepository.Add(brand);
-                barndRepository.Save();
+                var brands = unitOfWork.Brands;
+                var brand = new Brand() { Name = "Fuller" };
+                brands.Add(brand);
 
-                foreach (var br in barndRepository.Get())
-                {
-                    Console.WriteLine(br.Name);
-                }
+                unitOfWork.Save();
+
+                //Repository
+                //var beerRepository = new CRepository<Beer>(context);
+                //beerRepository.Delete(4);
+                ////var beer = new Beer() { Name = "Fuller", Style = "Strong Ale" };
+                ////beerRepository.Add(beer);
+                //beerRepository.Save();
+
+                //foreach (var b in beerRepository.Get())
+                //{
+                //    Console.WriteLine($"{b.BeerId} {b.Name}");
+                //}
+
+                //var barndRepository = new CRepository<Brand>(context);
+
+                //var brand = new Brand();
+                //brand.Name = "Fuller";
+                //barndRepository.Add(brand);
+                //barndRepository.Save();
+
+                //foreach (var br in barndRepository.Get())
+                //{
+                //    Console.WriteLine(br.Name);
+                //}
             }
         }
     }
